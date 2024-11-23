@@ -1,0 +1,5 @@
+numpy
+Flask
+Jinja2
+lxml
+flask_session
