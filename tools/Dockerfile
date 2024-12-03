@@ -11,5 +11,6 @@ RUN apt-get install -y sqlmap
 RUN apt-get update -y
 RUN apt-get install -y python3-pip --fix-missing
 RUN pip install bandit --break-system-packages
+RUN pip install requests --break-system-packages
 
 

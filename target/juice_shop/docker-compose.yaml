@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  juice-shop:
+    build: .
+    ports:
+      - 80:3000
+    volumes:
+      - ./data:/data
