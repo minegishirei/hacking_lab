@@ -1,3 +1,7 @@
+
+
+
+
 import requests
 import string
 
@@ -66,6 +70,29 @@ VALUES
 VIEW
 WHERE
 WITH
+IF
+=
+!
+"
+'
+()
+<>
+<=
+>=
++
+-
+*
+/
+%
+;
+,
+.
+|
+&
+#
+?
+~
+0x
 """.split("\n")
 
 #payloads = ["and"]
@@ -92,4 +119,3 @@ for payload in payloads:
 
     except requests.exceptions.RequestException as e:
         print(f"An error occurred with payload '{payload}': {e}")
-    
